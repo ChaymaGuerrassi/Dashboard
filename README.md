@@ -1,6 +1,6 @@
 # Dashboard
 
-Est une interface utilisateur intégré en ReactJS &amp; SCSS.
+Est une interface utilisateur en cours d'intégration en ReactJS &amp; SCSS.
 
 ViteJS : Bundler.
 
