@@ -1,0 +1,31 @@
+.title{
+    display: flex;
+    align-items: baseline;
+    >span{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 33px;
+        color: #1C1F37;
+        margin-right: 8px;
+    }
+    >.percent{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        color: #30D988;
+        margin-right: 3px;
+        margin-left: 5.5px;
+    }
+    >p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+
+        /* identical to box height */
+
+        color: rgba(28, 31, 55, 0.58);
+    }
+}

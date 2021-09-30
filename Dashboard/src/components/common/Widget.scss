@@ -1,0 +1,38 @@
+.widgetMain{
+    width: 384px;
+    height: 395px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px #F1F2FA;
+    border-radius: 8px;
+    margin-top: 21px;
+    margin-bottom: 12px;
+    >.widgetTitle{
+        height: 61px;
+        border-bottom: .5px solid #DADADA;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        >.mainTitle{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            color: #1C1F37;
+        }
+        >.seeMore{
+            min-width: 105px;
+            text-align: right;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 17px;
+
+            /* identical to box height */
+
+            color: #017EFA;
+        }
+    }
+}
+

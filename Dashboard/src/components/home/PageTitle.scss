@@ -1,0 +1,23 @@
+
+.pageTitle{
+    width: fit-content;
+    >.mainTitle{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+
+        color: #1C1F37;
+    }
+    >.subTitle{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        /* identical to box height */
+
+        color: #6F6F6F;
+    }
+    
+}

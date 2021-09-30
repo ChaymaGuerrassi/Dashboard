@@ -1,0 +1,33 @@
+.calendarLine{
+    padding-left: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: .5px solid #DADADA;;
+    .taskMain{
+        display: flex;
+        >.task{
+            margin-left: 8px;
+            >.taskTitle{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1C1F37;
+            }
+            >.taskCategory{
+                margin-top: 6px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 14px;
+                color: #1C1F37;
+                opacity: 0.5;
+            }
+        }
+        
+    }
+}
+
+.calendarLine:last-child{
+    border-bottom: none;
+}

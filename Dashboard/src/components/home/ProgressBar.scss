@@ -1,0 +1,25 @@
+.progressBar{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    >.progress{
+        width: 69px;
+        height: 4px;
+        background: #c4c4c4a4;
+        border-radius: 44px;
+        >.bar{
+            height: 4px;
+            background: #51CBFF;
+            border-radius: 44px;    
+        }
+    }
+    >.percentage{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 11px;
+        color: #1C1F37;
+        opacity: 0.5;
+    }
+}

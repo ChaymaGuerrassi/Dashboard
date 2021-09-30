@@ -1,0 +1,33 @@
+@import '../../assets/scss/styles.scss';
+
+.homePage{
+    display: flex;
+    margin-top: $navbarMainHeight;
+    margin-left: $sidebarMainWidth;
+    >.left{
+        width: 444px;
+        min-width: 444px;
+        >.pageContent{
+            width: 100%;
+            height: 100%;
+            
+            padding-left: 59px;
+            padding-top: 18px;
+            
+        }
+    }
+    >.right{
+        flex: 1;
+        padding-top: 48px;
+        padding-left: 40px;
+        padding-right: 51px;
+        .chart{
+            >canvas{
+                width: 100% !important;
+                height: 450px !important;
+                padding-top: 24px;
+                padding-bottom: 24px;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+$screen-sm-min:576px;
+$screen-md-min:768px;
+$screen-lg-min:992px;
+$screen-xl-min:1200px;
+$screen-xxl-min:1400px;
+$screen-qhd-min:2200px;
+$screen-uhd-min:2700px;
+
+@mixin sm{@media (min-width: #{$screen-sm-min}){@content;}}
+@mixin md {@media (min-width: #{$screen-md-min}) {@content;}}
+@mixin lg {@media (min-width: #{$screen-lg-min}) {@content;}}
+@mixin xl {@media (min-width: #{$screen-xl-min}) {@content;}}
+@mixin xxl {@media (min-width: #{$screen-xxl-min}) {@content;}}
+@mixin qhd {@media (min-width: #{$screen-qhd-min}) {@content;}}
+@mixin uhd {@media (min-width: #{$screen-uhd-min}) {@content;}}
+// Custom devices
+@mixin rwd($screen){@media (min-width: $screen+'px') {@content;}}
+
+
+@mixin no-touch-select {
+	-webkit-touch-callout:none; /* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust:none; /* prevent webkit from resizing text to fit */
+	-webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color*/
+	-webkit-tap-highlight-color: transparent; /* prevent tap highlight color*/
+	-webkit-user-select:text;  /* prevent copy paste, to allow, change 'none' to 'text' */
+}

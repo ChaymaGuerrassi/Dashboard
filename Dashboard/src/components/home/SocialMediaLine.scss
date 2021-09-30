@@ -1,0 +1,54 @@
+.socialMediaLine{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    border-bottom: .5px solid #DADADA;
+    >img{
+        width: 22px;
+    }
+    >.social{
+        flex-grow: 2;
+        margin-left: 11px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    >.visitors{
+        flex-grow: .5;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #313131;
+    }
+    >.percentage{
+        flex-grow: .2;
+        margin-left: 6px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #313131;
+    }
+    #Facebook{
+        color: #017EFA;
+    }
+    #Instagram{
+        color: #FD1F9B;
+    }
+    #LinkedIn{
+        color: #007AB5;
+    }
+    #Youtube{
+        color: #FF0000;
+    }
+}
+
+.socialMediaLine:last-child{
+    border-bottom: none;
+}
